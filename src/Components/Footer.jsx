@@ -42,19 +42,19 @@ const Footer = () => {
             <div className=' col-span-2 sm:col-auto'>
               <h3 className='text-md font-semibold mb-2 md:text-center text-xl flex item-center justify-center text-white'>Social Media Handles</h3>
               <ul className='space-y-2 flex items-center justify-center'>
-                <a href='' className='text-5xl pr-3 text-gray-700 hover:text-green-500 duration-500'>
+                <a href='https://wa.me/qr/XI6XHSC4OLEQD1' className='text-5xl pr-3 text-gray-700 hover:text-green-500 duration-500'>
                     <IoLogoWhatsapp />
                 </a>
-                <a href='' className='text-5xl pr-3 text-gray-700 hover:text-red-600 duration-500'>
+                <a href='https://www.instagram.com/gaben_zco?igsh=bjM1azR4ODZpOWlk' className='text-5xl pr-3 text-gray-700 hover:text-red-600 duration-500'>
                     <FaInstagram />
                 </a>
-                <a href='' className='text-5xl pr-3 text-gray-700 hover:text-black duration-500'>
+                <a href='https://www.tiktok.com/@gabenzco?_t=8lXnBIPo246&_r=1' className='text-5xl pr-3 text-gray-700 hover:text-black duration-500'>
                     <FaTiktok />
                 </a>
-                <a href='' className='text-5xl pr-3 text-gray-700 hover:text-black duration-500'>
+                <a href='https://github.com/Gabby-Tech1' className='text-5xl pr-3 text-gray-700 hover:text-black duration-500'>
                     <FaGithub />
                 </a>
-                <a href='' className='text-5xl pr-3 text-gray-700 hover:text-blue-900 duration-500'>
+                <a href='https://www.linkedin.com/in/gabriel-kwame-addo-quainoo-3b0960297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' className='text-5xl pr-3 text-gray-700 hover:text-blue-900 duration-500'>
                     <FaLinkedinIn />
                 </a>
               </ul>  

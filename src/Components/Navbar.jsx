@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to='/account'>
             <div className='flex items-center'>
               <img src="https://th.bing.com/th?id=OIP.Z306v3XdxhOaxBFGfHku7wHaHw&w=244&h=255&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" className='w-10 h-10 rounded-full'/>
-              <button className='text-white hover:text-cyan-400 pl-2 font-semibold mt-2'>Account</button>
+              <button className='text-white hover:text-cyan-400 pl-1 mr-2 font-semibold mt-2'>Account</button>
             </div>
           </Link>
           
