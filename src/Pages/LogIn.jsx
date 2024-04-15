@@ -40,16 +40,15 @@ const LogIn = () => {
                         <h1 className='text-3xl font-bold'>Sign <span className='text-cyan-500'>In</span> </h1>
                         <form onSubmit={handleSubmit} className='w-full flex flex-col py-4'>
                             <input onChange={(e) => setEmail(e.target.value)} className='p-3 my-2 bg-cyan-100 bg-opacity-30 rounded-xl focus:outline-none text-white' type="email" placeholder='Email' autoComplete='email' required/>
-                            <input onChange={(e) => setPassword(e.target.value)} className='p-3 my-2 bg-cyan-100 bg-opacity-30 rounded-xl focus:outline-none text-white' type="password" placeholder='Password' required/>
+                            <input onChange={(e) => setPassword(e.target.value)} className='p-3 my-2 bg-cyan-100 bg-opacity-30 rounded-xl focus:outline-none text-white' type="password" placeholder='Password' autoComplete='password' required/>
                             <button className='bg-cyan-400 py-2 my-6 rounded-full text-xl font-semibold hover:bg-transparent hover:border-cyan-400 hover:border hover:text-cyan-400 duration-500 ease-in-out'>Sign In</button>
                             {error ? <div className='text-red-400 pb-3 text-center font-semibold flex items-center justify-center'><ImWarning /><p className='pl-2'> Invalid Email or Password!!!</p></div> : null}
                             <div className='flex justify-between items-center text-sm text-gray-300'>
-                                <p className='mr-2'><input type="checkbox" />Remember Me</p>
+                                <p className='ml-2'><input type="checkbox" className='mr-1'/>Remember Me</p>
                                 <p className='cursor-pointer'>Forgot Password?</p>
                             </div>
                             <h1 className='text-lg py-8'>New Here? <Link to="/signup" className='text-cyan-600 hover:text-white duration-300 ease-in-out'>Create an account</Link></h1>
                         </form>
-
                     </div>
                 </div>
             </div>

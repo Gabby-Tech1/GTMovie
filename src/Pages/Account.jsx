@@ -1,5 +1,6 @@
 import React from 'react'
 import SavedMovies from '../Components/SavedMovies'
+import Footer from '../Components/Footer'
 
 const Account = () => {
   return (
@@ -12,6 +13,7 @@ const Account = () => {
       </div>
       </div>
       <SavedMovies/>
+      <Footer/>
     </>
   )
 }
